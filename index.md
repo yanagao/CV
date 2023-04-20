@@ -1,166 +1,90 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: yanagao
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: yanagaoy@gmail.com
+  text: yanagaoy@gmail.com
+phone: 18818790254
 ---
 
-# Wode **Ni**
-
-<!--
-include contact information from the front matter
-Supported arguments:
-    - homepage: url, text
-    - phone
-    - email
--->
+#  **高雅**
 
 {% include cv-contact.html %}
 
-## Education
 
-### **Carnegie Mellon University** `2018.9 -`
+## 教育背景
 
-```
-Pittsburgh, PA
-```
+### **吉林大学** `2011 - 2015`
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
-
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
-
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
-
-## Publications
-
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
+- 计算机科学与技术学院 物联网工程专业 本科
 
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+## 工作经验
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+### **腾讯科技（深圳）有限公司** `2014-2023`
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+- 腾讯文档 &ensp; &ensp; &ensp; &ensp; &ensp;前端负责人（部分业务）
+- 研发工程效能 &ensp; 团队负责人
+- NOW 直播 &ensp; &ensp; &ensp; &ensp;前端负责人（用户增长）
+- 腾讯 QQ &ensp; &ensp; &ensp; &ensp; &ensp; 前端开发
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
+### **松下集团** `2013`
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
-
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)
-
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
-
----
-
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
-
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
-
-## Experience
-
-### **Microsoft Research** `2020.5 - 2020.8`
-
-_Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience.
-
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-## Mentoring
-
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - Now` <br>
-[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
----
-
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Teaching
-
-Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+- 智能家居控制 &ensp;	前端开发（实习）
 
 
-## Service
+## 项目经历
 
-Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2021` <br>
+### **腾讯文档** `2021至今`
 
-<!-- ### Footer
+- 负责腾讯文档 Sheet 的商业化功能开发，同时会依据此前 toC 业务经验为腾讯文档提供商业化思路。
+- 负责腾讯文档小程序、微盘小程序开发，改进 miniprogram-automator 方案，使得小程序中的 webview 也可以进行自动化测试。
+- 负责企业微信文档中的文档演示功能开发。
+- 负责推进企业微信、腾讯文档和腾讯会议的融合版本研发。
 
-Last updated: May 2013 -->
+### **EP效能平台** `2020`
+
+- 负责设计EP效能平台前端项目架构，重构后效能平台代码更合理、便于维护。
+- 主导改善团队工作流程，从团队工作习惯、成员个人影响力等方面进行改进，使前端团队工作有序进行。
+- 从用户角度出发，改进平台功能、交互、UI等，极大的提高了业务口碑。
+
+### **NOW直播** `2018-2019`
+
+- 用户增长前端负责人，贡献了 NOW 直播 60% 以上的日活。
+- 负责 2019 年春晚摇红包活动的前端研发与优化。
+- 负责对接手机 QQ 离线包。
+- 主导开发了零信任场景下的免代理测试环境访问平台，吸引了腾讯视频、腾讯看点等若干业务的接入。
+- 主导开发了 Mock 接口平台，至今仍内置若干前端部门的前端脚手架。
+- 参与研发自动化测试框架，至今仍内置若干前端部门的前端脚手架。
+
+### **腾讯 QQ** `2014-2018`
+
+- 主导「群签到」前端开发。
+- 参与手机 QQ 「附近」功能前端开发。
+- 参与「QQ 群送礼」「创建 QQ 群」「群视频」「付费入群」「兴趣部落」等业务的开发。
+
+
+<!-- ### **手Q动态附近** `2018`
+
+- 使用vue重构附近页面
+- 将广告接入附近feeds中增加收入
+  
+### **手Q群基础业务** `2016-2018`
+
+- 群签到项目负责人，在原来单纯定位签到的基础上，增加更多签到玩法，刺激群内分享优质内容状态，刺激互动。共三次重构，组件化项目增加可维护性以及可扩展性。
+- 同时负责了群送礼、群创建、群视频管理后台、付费入群等项目的日常开发以及项目优化，使用 React、Vue 重构替换老旧框架。
+
+### **兴趣部落** `2014-2016`
+
+- 负责兴趣部落日常需求开发。
+
+### **手Q AK离线包管理平台** `2015-2016`
+
+- 接手前手Q离线包预加载功能是由管理员人工配置发布的，人力成本高效率低，于是增加了预加载定时开关功能，一次审批自动发布，省去了每周审核发布的人工成本。 -->
+
+
+## 专业技能
+- 有多年大型项目协作开发经验、跨部门合作经验。
+- 具有丰富的项目管理经验，能够独立推动项目有序迭代。持有 PMP 认证证书。
+- 熟悉 TypeScript、React、小程序开发。
+- 有一定的英语听说读写能力。

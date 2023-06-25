@@ -156,10 +156,11 @@ em {
 h1 {
   font-family: "Avenir Next", sans-serif;
   text-align: center;
-  font-size: 50pt;
+  /* font-size: 50pt; */
+  font-size: 300%;
   font-weight: lighter;
   position: relative;
-  line-height: 1.2em;
+  line-height: 1.5em;
   position: relative;
   /* left: 28%; */
 }
@@ -177,8 +178,8 @@ h2 {
   font-weight: normal;
   display: flex;
   /* line-height: 1.5em; */
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
   width: 100%;
 }
 h2:after {
@@ -220,7 +221,7 @@ li {
   text-align: center;
   position: relative;
   font-weight: lighter;
-  color: #ccc;
+  color: #000;
   /* font-family: Menlo,monospace,sans-serif; */
 }
 

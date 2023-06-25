@@ -1,18 +1,24 @@
 <div id="contact-info">
+    {% if page.birth %}
+    <!-- <i class="fi-telephone" style="margin-left:1em"></i> -->
+    {{ page.birth }}
+    {% endif %}
 
     {% if page.homepage %}
     <i class="fi-home" style="margin-left:1em"></i>
     <a href="{{ page.homepage.url }}" style="margin-left:0.5em"> {{ page.homepage.text }}</a>
     {% endif %}
-
+    <br/>
     {% if page.email %}
-    <i class="fi-mail" style="margin-left:1em"></i>
+    <!-- <i class="fi-mail" style="margin-left:1em"></i> -->
     <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
     {% endif %}
 
     {% if page.phone %}
-    <i class="fi-telephone" style="margin-left:1em"></i>
+    <br/>
+    <!-- <i class="fi-telephone" style="margin-left:1em"></i> -->
     {{ page.phone }}
     {% endif %}
 
+    
 </div>
